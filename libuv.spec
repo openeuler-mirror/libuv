@@ -1,6 +1,6 @@
 Name:           libuv
 Epoch:          1
-Version:        1.35.0
+Version:        1.38.1
 Release:        1
 Summary:        A multi-platform support library with a focus on asynchronous I/O
 
@@ -60,6 +60,12 @@ Development libraries for libuv
 %doc ChangeLog
 
 %changelog
+* Mon Jul 27 2020wenzhanli<wenzhanli2@huawei.com> - 1.38.1-1
+- Type:bugfix
+- ID:NA
+- SUG:NA
+- DESC:version update 1.38.1
+
 * Mon Jun 1 2020 lizhenhua <lizhenhua21@huawei.com> - 1.35.0-1
 - update to 1.35.0
 
