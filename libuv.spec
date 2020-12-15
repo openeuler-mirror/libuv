@@ -1,7 +1,7 @@
 Name:           libuv
 Epoch:          1
 Version:        1.38.1
-Release:        1
+Release:        2
 Summary:        A multi-platform support library with a focus on asynchronous I/O
 
 # the licensing breakdown is described in detail in the LICENSE file
@@ -9,6 +9,7 @@ License:        MIT and BSD and ISC
 URL:            http://libuv.org/
 Source0:        http://dist.libuv.org/dist/v%{version}/%{name}-v%{version}.tar.gz
 Source2:        %{name}.pc.in
+Patch0:         CVE-2020-8252.patch
 
 BuildRequires:  autoconf automake libtool gcc
 
@@ -60,6 +61,9 @@ Development libraries for libuv
 %doc ChangeLog
 
 %changelog
+* Mon Dec 14 2020 wangxiao <wangxiao65@huawei.com> - 1.38.1-2
+- fix CVE-2020-8252
+
 * Mon Jul 27 2020wenzhanli<wenzhanli2@huawei.com> - 1.38.1-1
 - Type:bugfix
 - ID:NA
