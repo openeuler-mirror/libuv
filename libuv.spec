@@ -1,14 +1,13 @@
 Name:           libuv
 Epoch:          1
-Version:        1.40.0
+Version:        1.42.0
 Release:        1
 Summary:        A multi-platform support library with a focus on asynchronous I/O
 
-# the licensing breakdown is described in detail in the LICENSE file
-License:        MIT and BSD and ISC
+# from README.md
+License:        MIT and CC-BY-4.0
 URL:            http://libuv.org/
 Source0:        http://dist.libuv.org/dist/v%{version}/%{name}-v%{version}.tar.gz
-Source2:        %{name}.pc.in
 
 BuildRequires:  autoconf automake libtool gcc
 
@@ -60,6 +59,9 @@ Development libraries for libuv
 %doc ChangeLog
 
 %changelog
+* Tue Dec 21 2021 shangyibin <shangyibin1@huawei.com> - 1.42.0-1
+- upgrade version to 1.42.0
+
 * Tue Jan 26 2021 liudabo <liudabo1@huawei.com> - 1.40.0-1
 - upgrade version to 1.40.0
 
