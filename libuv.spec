@@ -1,6 +1,6 @@
 Name:           libuv
 Epoch:          1
-Version:        1.42.0
+Version:        1.44.1
 Release:        1
 Summary:        A multi-platform support library with a focus on asynchronous I/O
 
@@ -58,6 +58,9 @@ Development libraries for libuv
 %doc ChangeLog
 
 %changelog
+* Tue Apr 05 2022 wangyangdahai <admin@you2.top> - 1.44.1-1
+- upgrade version to 1.44.1
+
 * Fri Sep 25 2021 sdlzx <hdu_sdlzx@163.com> - 1.42.0-1
 - upgrade version to 1.42.0
 
